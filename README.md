@@ -38,9 +38,9 @@ Outside of coding, I enjoy playing and analyzing games, discovering indie gems, 
 ### 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kullaniciAdi&show_icons=true&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api?username=MasterCockatoo&show_icons=true&theme=tokyonight" />
   <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kullaniciAdi&layout=compact&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MasterCockatoo&layout=compact&theme=tokyonight" />
 </p>
 
 ---
