@@ -35,7 +35,3 @@ Currently, I’m also expanding my horizons through part-time law studies.
 
 
 ---
-
-🌐 **Website/Blog:** [compilemymind.com](https://compilemymind.com)
-
----
