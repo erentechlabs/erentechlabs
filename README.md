@@ -28,19 +28,19 @@ Outside of coding, I enjoy playing and analyzing games, discovering indie gems, 
 
 ### 🛠️ Projects
 
-- 🎯 **[Reminder+](https://github.com/MasterCockatoo/ReminderPlus):** A goal-oriented task manager app built with Flutter.
-- 🌄 **[SceneShift](https://github.com/MasterCockatoo/SceneShift):** A WPF-based dynamic wallpaper manager with MVVM architecture.
-- 🍽️ **[Weekly Dish](https://github.com/MasterCockatoo/WeeklyDish):** AI-powered weekly meal planner with smart lists and nutrition info.
-- 📊 **[NeutronDB](https://github.com/MasterCockatoo/NeutronDB):** Lightweight Spring Boot backend for performance/compatibility feedback.
+- 🎯 **[Reminder+](https://github.com/erentechlabs/ReminderPlus):** A goal-oriented task manager app built with Flutter.
+- 🌄 **[SceneShift](https://github.com/erentechlabs/SceneShift):** A WPF-based dynamic wallpaper manager with MVVM architecture.
+- 🍽️ **[Weekly Dish](https://github.com/erentechlabs/WeeklyDish):** AI-powered weekly meal planner with smart lists and nutrition info.
+- 📊 **[NeutronDB](https://github.com/erentechlabs/NeutronDB):** Lightweight Spring Boot backend for performance/compatibility feedback.
 
 ---
 
 ### 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MasterCockatoo&show_icons=true&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api?username=erentechlabs&show_icons=true&theme=tokyonight" />
   <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MasterCockatoo&layout=compact&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=erentechlabs&layout=compact&theme=tokyonight" />
 </p>
 
 ---
