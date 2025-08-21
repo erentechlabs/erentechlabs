@@ -1,53 +1,40 @@
-<h1 align="center">Hi there 👋 I'm Eren Karaoğlu</h1>
+<h1 align="center">Hi 👋 I'm Eren Karaoğlu</h1>
 
-<p align="center">
-  💻 Software Developer | 🎮 Indie Game Enthusiast | ⚖️ Part-Time Law Student
+<p align="center"> 
+  💻 Information Technology & Computers Enthusiast  
+  ⚖️ Part-Time Law Student
 </p>
 
 ---
 
 ### 🚀 About Me
 
-I'm a developer who loves creating **meaningful, user-focused applications** — whether it's building sleek desktop tools with **WPF**, crafting clean mobile UIs with **Flutter**, or designing powerful backend systems using **Spring Boot**.
+I’m passionate about information technology and computers in all their forms.  
+I love exploring how systems work, solving problems creatively, and constantly learning new ways to innovate.  
 
-I enjoy solving real-world problems with elegant code and thoughtful design. I’m also a big fan of clean architecture, maintainability, and continuous learning.
-
-Outside of coding, I enjoy playing and analyzing games, discovering indie gems, and currently expanding my horizons by studying **Justice** part-time.
-
----
-
-### 🧠 Tech Stack
-
-- **Languages:** Java, C#, Dart, SQL  
-- **Frameworks:** Spring Boot, Flutter, WPF (.NET)  
-- **Frontend:** HTML, CSS, JavaScript  
-- **Databases:** PostgreSQL, MySQL, SQLite  
-- **Tools:** Git, IntelliJ, VS Code, Visual Studio, Postman
+I enjoy diving into both software and hardware to understand how things tick and improve them.  
+Currently, I’m also expanding my horizons through part-time law studies.
 
 ---
 
-### 🛠️ Projects
-
-- 🎯 **[Reminder+](https://github.com/erentechlabs/ReminderPlus):** A goal-oriented task manager app built with Flutter.
-- 🌄 **[SceneShift](https://github.com/erentechlabs/SceneShift):** A WPF-based dynamic wallpaper manager with MVVM architecture.
-- 🍽️ **[Weekly Dish](https://github.com/erentechlabs/WeeklyDish):** AI-powered weekly meal planner with smart lists and nutrition info.
-- 📊 **[NeutronDB](https://github.com/erentechlabs/NeutronDB):** Lightweight Spring Boot backend for performance/compatibility feedback.
+### 🧠 Interests & Skills
+- Information Technology & Computers  
+- Software Development  
+- System Analysis & Optimization  
+- Continuous Learning
 
 ---
 
 ### 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=erentechlabs&show_icons=true&theme=tokyonight" />
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=erentechlabs&layout=compact&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api?username=erentechlabs&show_icons=true&theme=tokyonight&count_private=true" width="30%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=erentechlabs&layout=compact&theme=tokyonight&hide=jupyter%20notebook" width="30%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=erentechlabs&theme=tokyonight" width="30%" />
 </p>
 
+
 ---
-
-### ☕ Let's Connect
-
-Feel free to reach out if you'd like to collaborate, ask questions, or just talk about games & code!
 
 🌐 **Website/Blog:** [compilemymind.com](https://compilemymind.com)
 
