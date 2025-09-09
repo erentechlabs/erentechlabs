@@ -1,27 +1,27 @@
 <h1 align="center">Hi 👋 I'm Eren Karaoğlu</h1>
 
 <p align="center"> 
-  💻 Information Technology & Computers Enthusiast  
-  ⚖️ Part-Time Law Student
+  💻 Software Developer & Tech Enthusiast  
+  ⚡ Passionate about Coding, Problem-Solving & Continuous Learning
 </p>
 
 ---
 
 ### 🚀 About Me
 
-I’m passionate about information technology and computers in all their forms.  
-I love exploring how systems work, solving problems creatively, and constantly learning new ways to innovate.  
+I’m passionate about software development and technology in all its forms.  
+I love building applications, exploring new frameworks, and improving systems through clean, efficient code.  
 
-I enjoy diving into both software and hardware to understand how things tick and improve them.  
-Currently, I’m also expanding my horizons through part-time law studies.
+I enjoy solving real-world problems using technology and constantly learning new tools, languages, and methodologies to grow as a developer.
 
 ---
 
 ### 🧠 Interests & Skills
-- Information Technology & Computers  
-- Software Development  
-- System Analysis & Optimization  
-- Continuous Learning
+- Software Development (Backend & Frontend)  
+- System Design & Optimization  
+- APIs, Databases, and Cloud Technologies  
+- Automation & Problem-Solving  
+- Continuous Learning & Experimentation  
 
 ---
 
@@ -32,6 +32,5 @@ Currently, I’m also expanding my horizons through part-time law studies.
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=erentechlabs&layout=compact&theme=tokyonight&hide=jupyter%20notebook" width="30%" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=erentechlabs&theme=tokyonight" width="30%" />
 </p>
-
 
 ---
