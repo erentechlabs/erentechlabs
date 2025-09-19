@@ -30,7 +30,8 @@ I enjoy solving real-world problems using technology and constantly learning new
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=erentechlabs&show_icons=true&theme=tokyonight&count_private=true" width="30%" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=erentechlabs&layout=compact&theme=tokyonight&hide=jupyter%20notebook" width="30%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=erentechlabs&theme=tokyonight" width="30%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=erentechlabs&theme=tokyonight" width="30%" />
+
 </p>
 
 ---
