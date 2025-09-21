@@ -1,11 +1,16 @@
 <h1 align="center">Hi 👋 I'm Eren Karaoğlu</h1>
 
-<p align="center"> 
-  💻 Software Developer & Tech Enthusiast  
-  ⚡ Passionate about Coding, Problem-Solving & Continuous Learning
+<p align="center">
+  <a href="https://github.com/erentechlabs">
+    <img src=".github/hello.gif" alt="Hello World, I'm Eren!" />
+  </a>
 </p>
 
----
+<p align="center">
+  💻 Software Developer &amp; Tech Enthusiast  
+  ⚡ Passionate about Coding, Problem-Solving &amp; Continuous Learning
+</p>
+
 
 ### 🚀 About Me
 
