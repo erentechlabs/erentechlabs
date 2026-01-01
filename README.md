@@ -5,47 +5,44 @@
   </a>
 
   <h1>
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=38BDF8&center=true&vCenter=true&width=520&lines=Hi%2C+I'm+Eren;SOC+Analyst+%26+Blue+Teamer;Threat+Hunting+%7C+Incident+Response;Defending+Systems+Every+Day" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=38BDF8&center=true&vCenter=true&width=520&lines=Hi%2C+I'm+Eren;Software+Engineer;Information+Systems+Engineer;Building+Scalable+Solutions;Always+Learning+New+Tech" alt="Typing SVG" />
   </h1>
 
 </div>
 
----
+### 💻 Terminal:~$ whoami
 
-### 🛡️ Terminal:~$ whoami
+> *“I like computers. A lot.”*
 
-> *“Security is not a product, it’s a process.”*
+I’m someone who genuinely enjoys spending time in the world of computers and informatics. I like breaking things down, understanding how systems work behind the scenes, and turning ideas into working solutions. Whether it’s software, system design, or trying out a new technology, I’m always curious about how and why things work.
 
-I am a **Blue Team–oriented cybersecurity enthusiast** focused on **SOC operations**.  
-My main interests include **security monitoring, log analysis, threat detection, and incident response**, with the goal of identifying and mitigating threats before they impact systems.
+For me, coding isn’t just about writing lines of code — it’s about thinking, experimenting, and improving step by step. I enjoy learning new tools, keeping up with tech trends, and applying what I learn to real projects. There’s always something new to explore, and that’s what keeps things fun.
 
-- 🔍 Focused on **Threat Hunting & Anomaly Detection**
-- 🚨 Interested in **Incident Response & SOC workflows**
-- 📊 I treat logs as evidence, not noise
+In short: I build, I learn, I break things (sometimes), and I build them better again 🚀
 
 ---
 
-### 🛠️ Tech Stack & Tooling
+### 🛠️ My Engineering Ecosystem
 
 <div align="center">
 <table>
   <thead>
     <tr>
-      <th align="center">🛡️ Security & Monitoring</th>
-      <th align="center">💻 Scripting & Automation</th>
-      <th align="center">🌍 Platforms & Environments</th>
+      <th align="center">⚙️ Backend & Systems</th>
+      <th align="center">🎨 Frontend & Mobile</th>
+      <th align="center">🛠️ Tools & DevOps</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td align="center">
-        <img src="https://skillicons.dev/icons?i=elasticsearch,grafana,kali&perline=3" />
+        <img src="https://skillicons.dev/icons?i=java,spring,dotnet,postgres,mysql&perline=3" />
       </td>
       <td align="center">
-        <img src="https://skillicons.dev/icons?i=python,bash,powershell,regex,github&perline=3" />
+        <img src="https://skillicons.dev/icons?i=flutter,dart,js,html,css&perline=3" />
       </td>
       <td align="center">
-        <img src="https://skillicons.dev/icons?i=linux,windows,docker,aws,azure&perline=3" />
+        <img src="https://skillicons.dev/icons?i=docker,git,github,linux,postman,vscode&perline=3" />
       </td>
     </tr>
   </tbody>
@@ -55,21 +52,22 @@ My main interests include **security monitoring, log analysis, threat detection,
 <br/>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Focus-Threat%20Hunting-38BDF8?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Focus-Incident%20Response-0EA5E9?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Focus-Log%20Analysis-22C55E?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Focus-System%20Design-38BDF8?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Focus-API%20Security-0EA5E9?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Focus-Full%20Stack-22C55E?style=for-the-badge" />
 </div>
 
 ---
 
-### 📊 GitHub Intelligence
+
+### 📊 Engineering Stats
 
 <div align="center">
   <img height="170"
-       src="https://github-readme-stats.vercel.app/api?username=erentechlabs&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8" />
+        src="https://github-readme-stats.vercel.app/api?username=erentechlabs&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8" />
   
   <img height="170"
-       src="https://github-readme-stats.vercel.app/api/top-langs/?username=erentechlabs&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8" />
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=erentechlabs&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8" />
 </div>
 
 ---
