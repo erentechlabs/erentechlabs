@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=38BDF8&center=true&vCenter=true&width=800&lines=Hi%2C+I'm+Eren+%F0%9F%91%BE;Cybersecurity+%26+GRC+Professional;Managing+Risk+%E2%80%94+Ensuring+Compliance;Auditor+Mindset%2C+Strategic+Vision;Always+Curious%2C+Always+Learning" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=38BDF8&center=true&vCenter=true&width=800&lines=Hi%2C+I'm+Eren+%F0%9F%91%BE;Software+%26+Systems+Engineer;Building+Apps%2C+Running+Infra;Code+Meets+Infrastructure;Always+Curious%2C+Always+Learning" alt="Typing SVG" />
 </div>
 
 <br/>
@@ -15,9 +15,9 @@
     <img src="https://komarev.com/ghpvc/?username=erentechlabs&style=flat&color=38BDF8&label=PROFILE+VIEWS" alt="Profile views" />
   </a>
   &nbsp;
-  <img src="https://img.shields.io/badge/Focus-GRC%20%26%20Cybersecurity-DC2626?style=flat" />
+  <img src="https://img.shields.io/badge/Focus-Software%20%26%20Systems-DC2626?style=flat" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Status-Managing%20Risk%20%26%20Compliance-22C55E?style=flat" />
+  <img src="https://img.shields.io/badge/Status-Code%20%2B%20Infrastructure-22C55E?style=flat" />
 </div>
 
 <br/><br/>
@@ -29,9 +29,9 @@
       <code>&nbsp;🔴 🟡 🟢 &nbsp;&nbsp;~ / erentechlabs / whoami&nbsp;</code>
       <br/><br/>
       <blockquote><i>"I like computers. A lot."</i></blockquote>
-      <p>I'm someone who genuinely enjoys spending time in the world of computers and informatics. I like breaking things down, understanding how systems work behind the scenes, and turning complex architectures into secure environments. Whether it's system design, network topologies, or exploring a new security standard, I'm always curious about how and why things work.</p>
-      <p>For me, cybersecurity isn't just about deploying tools — it's about thinking strategically, assessing risks, and improving an organization's resilience step by step. I enjoy learning new frameworks, keeping up with global compliance standards, and applying what I learn to real-world infrastructure. These days I'm especially focused on <b>Governance, Risk, and Compliance (GRC)</b>: defining security policies, auditing systems, and understanding how attackers think so I can help build better strategic defenses.</p>
-      <p><b>In short:</b> I assess, I learn, I break down complex risks, and I help build secure, compliant environments 🚀</p>
+      <p>I'm someone who genuinely enjoys spending time in the world of computers and informatics. I like breaking things down, understanding how systems work behind the scenes, and turning complex architectures into clean, reliable solutions — whether that's writing application code, designing an API, or configuring the infrastructure it runs on. I'm always curious about how and why things work, end to end.</p>
+      <p>For me, this field isn't just about writing code that works or keeping servers running — it's about understanding the full picture: how software is built, how it's deployed, and how the underlying systems and networks support it. I enjoy learning new frameworks and tools, getting hands-on with Linux environments, and applying what I learn to real-world infrastructure. These days I'm especially focused on a mix of <b>Software Development & Systems/Infrastructure</b>: building backend services, working with databases and APIs, and managing the servers, containers, and pipelines that bring it all together.</p>
+      <p><b>In short:</b> I build, I configure, I automate, and I help ship reliable software on solid infrastructure 🚀</p>
       <br/>
     </td>
   </tr>
@@ -49,51 +49,40 @@
   </tr>
   <tr>
     <td align="center" width="50%">
-      <br/><b>🛡️ Frameworks & Standards</b><br/><br/>
-      <img height="32" src="https://img.shields.io/badge/ISO_27001-111827?style=flat&logo=readthedocs&logoColor=white" />
-      <img height="32" src="https://img.shields.io/badge/NIST_CSF-111827?style=flat&logo=gitbook&logoColor=white" />
-      <img height="32" src="https://img.shields.io/badge/GDPR-111827?style=flat&logo=duckduckgo&logoColor=white" />
-      <img height="32" src="https://img.shields.io/badge/SOC_2-111827?style=flat&logo=checkmarx&logoColor=38BDF8" />
-      <img height="32" src="https://img.shields.io/badge/PCI_DSS-111827?style=flat&logo=stripe&logoColor=white" />
-      <img height="32" src="https://img.shields.io/badge/CIS_Controls-111827?style=flat&logo=cisco&logoColor=white" />
-      <img height="32" src="https://img.shields.io/badge/MITRE_ATT%26CK-111827?style=flat&logo=target&logoColor=EE2A24" />
+      <br/><b>💻 Languages & Frameworks</b><br/><br/>
+      <img src="https://skillicons.dev/icons?i=cs,dotnet,java,spring,python&theme=dark&shape=circle&perline=5" />
       <br/><br/>
     </td>
     <td align="center" width="50%">
-      <br/><b>📊 GRC Platforms & Audit</b><br/><br/>
-      <img height="32" src="https://img.shields.io/badge/RSA_Archer-111827?style=flat&logo=rsa&logoColor=E50000" />
-      <img height="32" src="https://img.shields.io/badge/OneTrust-111827?style=flat&logo=trustpilot&logoColor=00B050" />
-      <img height="32" src="https://img.shields.io/badge/Vanta-111827?style=flat&logo=vault&logoColor=6C4CFF" />
-      <img height="32" src="https://img.shields.io/badge/Drata-111827?style=flat&logo=databricks&logoColor=38BDF8" />
-      <img height="32" src="https://img.shields.io/badge/ServiceNow-111827?style=flat&logo=servicenow&logoColor=81B5A1" />
+      <br/><b>🗄️ Databases</b><br/><br/>
+      <img src="https://skillicons.dev/icons?i=mssql,mysql,postgres,redis,mongodb&theme=dark&shape=circle&perline=5" />
       <br/><br/>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <br/><b>🛠️ Vulnerability & Endpoint</b><br/><br/>
-      <img height="32" src="https://img.shields.io/badge/Nessus-111827?style=flat&logo=tenable&logoColor=00AEEF" />
-      <img height="32" src="https://img.shields.io/badge/Qualys-111827?style=flat&logo=qualys&logoColor=ED1C24" />
-      <img height="32" src="https://img.shields.io/badge/CrowdStrike-111827?style=flat&logo=crowdstrike&logoColor=FF0000" />
-      <img height="32" src="https://img.shields.io/badge/Wazuh-111827?style=flat&logo=wazuh&logoColor=00AEEF" />
+      <br/><b>🐳 DevOps & Containers</b><br/><br/>
+      <img src="https://skillicons.dev/icons?i=docker,kubernetes,jenkins,githubactions,terraform&theme=dark&shape=circle&perline=5" />
       <br/><br/>
     </td>
     <td align="center" width="50%">
-      <br/><b>👁️ SIEM & SecOps</b><br/><br/>
-      <img height="32" src="https://img.shields.io/badge/Splunk-111827?style=flat&logo=splunk&logoColor=43B02A" />
-      <img height="32" src="https://img.shields.io/badge/IBM_QRadar-111827?style=flat&logo=ibm&logoColor=white" />
-      <img height="32" src="https://img.shields.io/badge/Microsoft_Sentinel-111827?style=flat&logo=microsoft&logoColor=0078D4" />
+      <br/><b>☁️ Cloud Platforms</b><br/><br/>
+      <img src="https://skillicons.dev/icons?i=azure,aws,gcp&theme=dark&shape=circle&perline=5" />
       <br/><br/>
     </td>
   </tr>
   <tr>
     <td align="center" colspan="2">
-      <br/><b>☁️ Cloud & Network Security</b><br/><br/>
-      <img height="32" src="https://img.shields.io/badge/AWS_Security-111827?style=flat&logo=amazonaws&logoColor=FF9900" />
-      <img height="32" src="https://img.shields.io/badge/Azure_Security-111827?style=flat&logo=microsoftazure&logoColor=0089D6" />
-      <img height="32" src="https://img.shields.io/badge/Palo_Alto-111827?style=flat&logo=paloaltonetworks&logoColor=F36E21" />
-      <img height="32" src="https://img.shields.io/badge/Fortinet-111827?style=flat&logo=fortinet&logoColor=C8102E" />
-      <img height="32" src="https://img.shields.io/badge/Cloudflare-111827?style=flat&logo=cloudflare&logoColor=F38020" />
+      <br/><b>🛠️ Tools & Practices</b><br/><br/>
+      <img height="32" src="https://img.shields.io/badge/REST_APIs-111827?style=flat&logo=fastapi&logoColor=38BDF8" />
+      <img height="32" src="https://img.shields.io/badge/Microservices-111827?style=flat&logo=kubernetes&logoColor=326CE5" />
+      <img height="32" src="https://img.shields.io/badge/CI%2FCD-111827?style=flat&logo=githubactions&logoColor=2088FF" />
+      <img height="32" src="https://img.shields.io/badge/Unit_Testing-111827?style=flat&logo=testinglibrary&logoColor=E33332" />
+      <br/><br/>
+      <img height="32" src="https://img.shields.io/badge/Server_Administration-111827?style=flat&logo=ubuntu&logoColor=E95420" />
+      <img height="32" src="https://img.shields.io/badge/Networking-111827?style=flat&logo=cisco&logoColor=1BA0D7" />
+      <img height="32" src="https://img.shields.io/badge/Virtualization-111827?style=flat&logo=vmware&logoColor=607078" />
+      <img height="32" src="https://img.shields.io/badge/Agile%2FScrum-111827?style=flat&logo=jira&logoColor=0052CC" />
       <br/><br/>
     </td>
   </tr>
@@ -104,14 +93,18 @@
 <table align="center" width="100%">
   <tr>
     <td align="center">
-      <br/><b>🧠 Strategic GRC & Security Skills</b><br/><br/>
-      <img height="32" src="https://img.shields.io/badge/Governance_%26_Policies-111827?style=flat&logo=gitbook&logoColor=7C3AED" />
-      <img height="32" src="https://img.shields.io/badge/Enterprise_Risk_Management-111827?style=flat&logo=auth0&logoColor=DC2626" />
-      <img height="32" src="https://img.shields.io/badge/Regulatory_Compliance-111827?style=flat&logo=checkmarx&logoColor=0EA5E9" />
+      <br/><b>🧠 Core Skills — Software & Systems</b><br/><br/>
+      <img height="32" src="https://img.shields.io/badge/System_Design-111827?style=flat&logo=gitbook&logoColor=7C3AED" />
+      <img height="32" src="https://img.shields.io/badge/API_Architecture-111827?style=flat&logo=swagger&logoColor=85EA2D" />
+      <img height="32" src="https://img.shields.io/badge/Database_Design-111827?style=flat&logo=postgresql&logoColor=0EA5E9" />
       <br/><br/>
-      <img height="32" src="https://img.shields.io/badge/Data_Privacy-111827?style=flat&logo=duckduckgo&logoColor=1679A7" />
-      <img height="32" src="https://img.shields.io/badge/Threat_Modeling-111827?style=flat&logo=owasp&logoColor=FF6633" />
-      <img height="32" src="https://img.shields.io/badge/Security_Auditing-111827?style=flat&logo=sonarqube&logoColor=22C55E" />
+      <img height="32" src="https://img.shields.io/badge/Infrastructure_as_Code-111827?style=flat&logo=terraform&logoColor=7B42BC" />
+      <img height="32" src="https://img.shields.io/badge/Automation-111827?style=flat&logo=githubactions&logoColor=FF6633" />
+      <img height="32" src="https://img.shields.io/badge/Clean_Code-111827?style=flat&logo=sonarqube&logoColor=22C55E" />
+      <br/><br/>
+      <img height="32" src="https://img.shields.io/badge/Linux_Administration-111827?style=flat&logo=linux&logoColor=FCC624" />
+      <img height="32" src="https://img.shields.io/badge/Shell_Scripting-111827?style=flat&logo=gnubash&logoColor=4EAA25" />
+      <img height="32" src="https://img.shields.io/badge/Monitoring_%26_Logging-111827?style=flat&logo=grafana&logoColor=F46800" />
       <br/><br/>
     </td>
   </tr>
