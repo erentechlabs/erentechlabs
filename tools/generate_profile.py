@@ -1,128 +1,125 @@
-"""Generate an animated, diagram-led GitHub profile panel. Requires Pillow."""
+"""Generate the animated terminal profile. Requires Pillow."""
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 import math
 
 ROOT = Path(__file__).resolve().parent.parent
-W, H = 1200, 1480
+W, H = 1000, 1240
 
-def find_font(*paths):
+def pick(*paths):
     for path in paths:
         if Path(path).is_file():
             return path
-    raise FileNotFoundError('Install Segoe UI / Consolas or DejaVu fonts')
+    raise FileNotFoundError('Install Consolas and Segoe UI, or DejaVu fonts')
 
-FONT_REG = find_font('C:/Windows/Fonts/segoeui.ttf', '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf')
-FONT_BOLD = find_font('C:/Windows/Fonts/segoeuib.ttf', '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf')
-FONT_MONO = find_font('C:/Windows/Fonts/consola.ttf', '/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf')
+MONO = pick('C:/Windows/Fonts/consola.ttf', '/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf')
+MONO_BOLD = pick('C:/Windows/Fonts/consolab.ttf', '/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf')
+SANS = pick('C:/Windows/Fonts/segoeui.ttf', '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf')
+SANS_BOLD = pick('C:/Windows/Fonts/segoeuib.ttf', '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf')
 
-def font(size, style='regular'):
-    return ImageFont.truetype({'regular': FONT_REG, 'bold': FONT_BOLD, 'mono': FONT_MONO}[style], size)
+def font(size, kind='mono'):
+    return ImageFont.truetype({'mono': MONO, 'mono_bold': MONO_BOLD, 'sans': SANS, 'sans_bold': SANS_BOLD}[kind], size)
 
-def label(draw, pos, value, size, color, style='regular'):
-    draw.text(pos, value, font=font(size, style), fill=color)
+def write(d, pos, text, size, color, kind='mono'):
+    d.text(pos, text, fill=color, font=font(size, kind))
 
-BG = (11, 20, 31)
-SURFACE = (15, 29, 44)
-PANEL = (18, 34, 50)
-EDGE = (46, 68, 87)
-WHITE = (225, 236, 244)
-SUBTLE = (158, 179, 195)
-FAINT = (104, 130, 150)
-BLUE = (110, 183, 230)
-BLUE_LINE = (65, 128, 166)
+BG = (9, 17, 28)
+BAR = (16, 28, 42)
+BORDER = (42, 65, 84)
+RULE = (36, 57, 75)
+WHITE = (228, 238, 246)
+MUTED = (151, 174, 191)
+DIM = (102, 132, 155)
+BLUE = (121, 195, 244)
+CYAN = (125, 210, 220)
 
-im = Image.new('RGB', (W, H), BG)
-d = ImageDraw.Draw(im)
-d.rectangle((1, 1, W-2, H-2), outline=(48, 76, 96), width=2)
-d.rectangle((2, 2, W-3, 65), fill=(16, 29, 42))
-d.line((2,65,W-2,65), fill=EDGE, width=1)
-for i,c in enumerate([(92,111,126),(92,111,126),(110,183,230)]):
-    d.ellipse((31+i*19, 28, 40+i*19, 37), fill=c)
-label(d,(105,20),'eren@infrastructure: ~',20,SUBTLE,'mono')
-label(d,(977,22),'PROFILE / 01',16,FAINT,'mono')
-# Header and introduction: no exaggerated titles or claimed metrics.
-label(d,(58,103),'EREN KARAOĞLU',65,WHITE,'bold')
-label(d,(62,197),'SYSTEMS   /   CLOUD   /   INFRASTRUCTURE',22,BLUE,'mono')
-d.line((62,249,1138,249),fill=EDGE,width=1)
-label(d,(62,280),'01   ABOUT',19,BLUE,'mono')
-label(d,(62,326),'Information Systems Engineering graduate.',30,WHITE)
-label(d,(62,373),'Curious about the systems behind the software.',27,SUBTLE)
-d.line((62,438,1138,438),fill=EDGE,width=1)
-label(d,(62,470),'02   AREAS OF INTEREST',19,BLUE,'mono')
-label(d,(858,473),'CONNECTED FIELDS',16,FAINT,'mono')
-# Connecting lines first, with small animated packets added later.
-for y in (588, 789):
-    d.line((569,y,631,y),fill=BLUE_LINE,width=2)
-d.line((600,588,600,789),fill=BLUE_LINE,width=2)
-for x,y in ((600,588),(600,789)):
-    d.ellipse((x-4,y-4,x+4,y+4),fill=BLUE)
+base = Image.new('RGB', (W, H), BG)
+d = ImageDraw.Draw(base)
+d.rectangle((1, 1, W-2, H-2), outline=BORDER, width=2)
+d.rectangle((2, 2, W-3, 58), fill=BAR)
+d.line((2, 58, W-2, 58), fill=BORDER, width=1)
+for i, color in enumerate(((95, 113, 128), (95, 113, 128), (121, 195, 244))):
+    d.ellipse((28+i*18, 25, 36+i*18, 33), fill=color)
+write(d, (96, 17), 'eren@lab: ~', 19, MUTED)
+write(d, (833, 20), 'PROFILE.SH', 15, DIM)
 
-cards = [
-    (62,  528, 'SYSTEMS',    'Linux / Windows Server', 'Active Directory', 'server'),
-    (631, 528, 'CLOUD',      'Azure / virtualization', 'Hybrid identity', 'cloud'),
-    (62,  729, 'NETWORKING', 'Routing / security', 'Monitoring', 'network'),
-    (631, 729, 'AUTOMATION', 'PowerShell / Bash', 'Python', 'terminal'),
-]
+# A terminal header, with a small topology rather than decorative 3D imagery.
+write(d, (51, 100), '// SYSTEMS  /  CLOUD  /  INFRASTRUCTURE', 17, BLUE, 'mono_bold')
+write(d, (48, 145), 'EREN', 62, WHITE, 'sans_bold')
+write(d, (48, 210), 'KARAOĞLU', 55, WHITE, 'sans_bold')
+write(d, (52, 290), 'BUILD  /  TROUBLESHOOT  /  AUTOMATE', 16, MUTED, 'mono_bold')
 
-def icon(draw, x, y, kind):
-    col=BLUE
-    if kind == 'server':
-        for i in range(3):
-            yy=y+i*15
-            draw.rectangle((x,yy,x+37,yy+10),outline=col,width=2)
-            draw.ellipse((x+5,yy+3,x+8,yy+6),fill=col)
-    elif kind == 'cloud':
-        draw.arc((x+1,y+13,x+21,y+33),90,270,fill=col,width=2)
-        draw.arc((x+10,y+2,x+36,y+28),180,315,fill=col,width=2)
-        draw.arc((x+27,y+13,x+47,y+33),270,90,fill=col,width=2)
-        draw.line((x+10,y+33,x+37,y+33),fill=col,width=2)
-    elif kind == 'network':
-        draw.line((x+7,y+12,x+31,y+12,x+31,y+34,x+7,y+34,x+7,y+12),fill=col,width=2)
-        for xx,yy in [(x+7,y+12),(x+31,y+12),(x+31,y+34),(x+7,y+34)]:
-            draw.rectangle((xx-3,yy-3,xx+3,yy+3),fill=BG,outline=col,width=2)
-    else:
-        draw.rectangle((x,y+3,x+42,y+38),outline=col,width=2)
-        draw.line((x+8,y+13,x+15,y+20,x+8,y+27),fill=col,width=2)
-        draw.line((x+21,y+28,x+32,y+28),fill=col,width=2)
+# Thin-line topology: conceptual interests, not a claim of a live system.
+write(d, (650, 104), 'CONNECTED FIELDS', 15, DIM, 'mono_bold')
+center=(782, 208)
+nodes=[((665,163),'SYS'),((901,163),'CLOUD'),((665,252),'NET'),((901,252),'AUTO')]
+for p,_ in nodes:
+    d.line((center,p), fill=(48,96,125), width=2)
+for (x,y),name in nodes:
+    d.rectangle((x-39,y-15,x+39,y+15), outline=(65,124,155), fill=BG, width=1)
+    width=d.textlength(name, font=font(14,'mono_bold'))
+    write(d, (x-width/2,y-9), name, 14, BLUE, 'mono_bold')
+d.rectangle((center[0]-34,center[1]-19,center[0]+34,center[1]+19), outline=BLUE, fill=BAR, width=2)
+write(d,(center[0]-16,center[1]-11),'>_',18,WHITE,'mono_bold')
 
-for x,y,title,line1,line2,kind in cards:
-    d.rectangle((x,y,x+506,y+151), fill=PANEL, outline=EDGE, width=1)
-    icon(d,x+24,y+25,kind)
-    label(d,(x+89,y+21),title,23,WHITE,'bold')
-    label(d,(x+89,y+62),line1,21,SUBTLE)
-    label(d,(x+89,y+94),line2,21,SUBTLE)
+def divider(y): d.line((51,y,949,y), fill=RULE, width=1)
+def section(y,number,title,command):
+    write(d,(51,y),number,17,DIM,'mono_bold')
+    write(d,(96,y),title,17,BLUE,'mono_bold')
+    write(d,(51,y+36),'eren@lab:~$',19,BLUE,'mono_bold')
+    write(d,(205,y+36),command,19,WHITE,'mono_bold')
 
-d.line((62,934,1138,934),fill=EDGE,width=1)
-label(d,(62,965),'03   LEARNING PATH',19,BLUE,'mono')
-# Labels indicate interests and learning, not completed qualifications.
-d.line((72,1029,72,1225),fill=(54,88,109),width=2)
-items=[(1023,'NOW','Windows Server, Linux and Active Directory'),
-       (1097,'NEXT','Azure administration and hybrid identity'),
-       (1171,'EXPLORING','Terraform, Ansible and Kubernetes')]
-for y,small,detail in items:
-    d.ellipse((67,y+10,77,y+20),fill=BLUE)
-    label(d,(100,y+1),small,18,BLUE,'mono')
-    label(d,(260,y-3),detail,25,WHITE)
-d.line((62,1275,1138,1275),fill=EDGE,width=1)
-label(d,(62,1313),'$ learn  /  build  /  troubleshoot  /  automate',23,SUBTLE,'mono')
-d.rectangle((2,1408,W-3,H-3),fill=(16,29,42))
-d.line((2,1408,W-2,1408),fill=EDGE,width=1)
-d.ellipse((62,1437,72,1447),fill=BLUE)
-label(d,(87,1427),'STATUS: CURIOUS',19,SUBTLE,'mono')
-label(d,(911,1428),'ERENTECHLABS',17,FAINT,'mono')
+divider(337)
+section(361,'01','WHOAMI','whoami')
+write(d,(51,433),'Information Systems Engineering graduate.',25,WHITE,'sans')
+write(d,(51,471),'Curious about the systems behind the software.',23,MUTED,'sans')
+divider(527)
+section(550,'02','FOCUS','cat focus.conf')
+rows=[('systems','Linux  /  Windows Server  /  Active Directory'),
+      ('cloud','Azure  /  Virtualization  /  Hybrid identity'),
+      ('networks','Routing  /  Security  /  Monitoring'),
+      ('automation','PowerShell  /  Bash  /  Python')]
+for i,(key,value) in enumerate(rows):
+    y=626+i*37
+    write(d,(51,y),key,19,CYAN,'mono_bold')
+    write(d,(213,y),'=',19,DIM)
+    write(d,(241,y),value,19,WHITE)
+
+divider(795)
+section(818,'03','LEARNING','cat learning.log')
+learning=[('NOW','Windows Server, Linux and Active Directory'),
+          ('NEXT','Azure administration and hybrid identity'),
+          ('EXPLORING','Terraform, Ansible and Kubernetes')]
+for i,(key,value) in enumerate(learning):
+    y=895+i*40
+    write(d,(51,y),key,17,BLUE,'mono_bold')
+    write(d,(210,y),value,19,WHITE)
+
+divider(1043)
+write(d,(51,1070),'eren@lab:~$',19,BLUE,'mono_bold')
+write(d,(205,1070),'./keep-building',19,WHITE,'mono_bold')
+write(d,(51,1110),'LEARN  >  BUILD  >  TROUBLESHOOT  >  AUTOMATE',19,MUTED,'mono_bold')
+d.rectangle((2,1175,W-3,H-3), fill=BAR)
+d.line((2,1175,W-2,1175), fill=BORDER, width=1)
+d.ellipse((51,1200,61,1210),fill=BLUE)
+write(d,(76,1193),'STATUS: CURIOUS',17,MUTED,'mono_bold')
+write(d,(749,1194),'ERENTECHLABS',16,DIM,'mono_bold')
 
 frames=[]
 for k in range(36):
-    frame=im.copy(); d=ImageDraw.Draw(frame)
-    # The dots follow the connecting lines; no simulated usage statistics.
-    y=588+(201*k/35)
-    d.ellipse((597,y-3,603,y+3),fill=(166,219,249))
-    if k < 18:
-        cursor_x = 62 + int(d.textlength('$ learn  /  build  /  troubleshoot  /  automate', font=font(23, 'mono'))) + 12
-        d.rectangle((cursor_x,1318,cursor_x+11,1339),fill=BLUE)
+    frame=base.copy(); draw=ImageDraw.Draw(frame)
+    # Small packets move along the topology; the rest remains steady.
+    for i, (p,_) in enumerate(nodes):
+        t=(k/36+i*.23)%1
+        x=center[0]+(p[0]-center[0])*t
+        y=center[1]+(p[1]-center[1])*t
+        draw.ellipse((x-3,y-3,x+3,y+3),fill=(181,226,251))
+    if k<18:
+        cursor_x=51+int(draw.textlength('LEARN  >  BUILD  >  TROUBLESHOOT  >  AUTOMATE',font=font(19,'mono_bold')))+11
+        draw.rectangle((cursor_x,1114,cursor_x+10,1131),fill=BLUE)
     frames.append(frame)
 
-output=ROOT/'profile-diagram-v9.gif'
-frames[0].save(output,save_all=True,append_images=frames[1:],duration=85,loop=0,optimize=True,disposal=2)
-print(f'Created {output.name} ({output.stat().st_size:,} bytes)')
+output=ROOT/'profile-terminal-v10.gif'
+frames[0].save(output, save_all=True, append_images=frames[1:], duration=85,
+               loop=0, optimize=True, disposal=2)
+print(f'Created {output.name}: {output.stat().st_size:,} bytes')
