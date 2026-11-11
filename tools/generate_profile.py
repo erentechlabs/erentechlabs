@@ -72,7 +72,6 @@ def section(y,number,title,command):
 divider(337)
 section(361,'01','WHOAMI','whoami')
 write(d,(51,433),'Information Systems Engineering graduate.',25,WHITE,'sans')
-write(d,(51,471),'Curious about the systems behind the software.',23,MUTED,'sans')
 divider(527)
 section(550,'02','FOCUS','cat focus.conf')
 rows=[('systems','Linux  /  Windows Server  /  Active Directory'),
@@ -102,7 +101,7 @@ write(d,(51,1110),'LEARN  >  BUILD  >  TROUBLESHOOT  >  AUTOMATE',19,MUTED,'mono
 d.rectangle((2,1175,W-3,H-3), fill=BAR)
 d.line((2,1175,W-2,1175), fill=BORDER, width=1)
 d.ellipse((51,1200,61,1210),fill=BLUE)
-write(d,(76,1193),'STATUS: CURIOUS',17,MUTED,'mono_bold')
+write(d,(76,1193),'SYSTEMS / CLOUD / INFRASTRUCTURE',17,MUTED,'mono_bold')
 write(d,(749,1194),'ERENTECHLABS',16,DIM,'mono_bold')
 
 frames=[]
@@ -119,7 +118,7 @@ for k in range(36):
         draw.rectangle((cursor_x,1114,cursor_x+10,1131),fill=BLUE)
     frames.append(frame)
 
-output=ROOT/'profile-terminal-v10.gif'
+output=ROOT/'profile-terminal-v11.gif'
 frames[0].save(output, save_all=True, append_images=frames[1:], duration=85,
                loop=0, optimize=True, disposal=2)
 print(f'Created {output.name}: {output.stat().st_size:,} bytes')
