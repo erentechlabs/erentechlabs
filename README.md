@@ -1,7 +1,7 @@
 <!-- EREN KARAOĞLU · SYSTEMS / CLOUD / INFRASTRUCTURE -->
 
 <div align="center">
-  <img src="./hero.gif" width="100%" alt="Eren Karaoğlu — systems, cloud and infrastructure. An animated terminal and network diagram." />
+  <img src="https://raw.githubusercontent.com/erentechlabs/erentechlabs/main/hero.gif" width="100%" alt="Eren Karaoğlu — systems, cloud and infrastructure. An animated terminal and network diagram." />
   <br/><br/>
   <b>Curious about the systems behind the software.</b><br/>
   <sub>Infrastructure · Networking · Cloud · Automation</sub>
@@ -20,6 +20,8 @@ automation              /  troubleshooting        /  IT operations
 ```
 
 ### `02 / inside the lab`
+
+<img src="https://raw.githubusercontent.com/erentechlabs/erentechlabs/main/lab-modules.png" width="100%" alt="Lab modules: systems, cloud, networks and automation." />
 
 | Domain | What I'm working with |
 | :--- | :--- |
@@ -52,9 +54,7 @@ Currently deepening my understanding of **Windows Server, Linux and Active Direc
 
 <div align="center">
   <br/>
-  <a href="https://github.com/erentechlabs?tab=repositories"><b>Explore all repositories ↗</b></a>
-  <br/><br/>
-  <img src="./status.gif" width="100%" alt="Status: curious. Learn, build, troubleshoot, automate." />
+  <img src="https://raw.githubusercontent.com/erentechlabs/erentechlabs/main/status.gif" width="100%" alt="Status: curious. Learn, build, troubleshoot, automate." />
   <br/>
   <sub><code>// understand the system · secure the infrastructure · automate the routine</code></sub>
 </div>
